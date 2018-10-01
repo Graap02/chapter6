@@ -12,7 +12,6 @@ public class RockPaperScissors {
 		final int LOW = 1;
 		final int HIGH = 3;
 		int choice;
-		do
 		{
 		computer = LOW + (int)(Math.random() * HIGH);
 		user = Integer.parseInt(JOptionPane.showInputDialog(null, "Type one of the following numbers:"

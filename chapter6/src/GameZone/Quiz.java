@@ -84,6 +84,6 @@ public class Quiz {
 		}	
 	}
 public static void displayMessage(String result) {
-	System.out.println("You got ")
+	System.out.println("You did well pal!");
 }
 }

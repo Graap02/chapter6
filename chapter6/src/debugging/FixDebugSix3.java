@@ -8,31 +8,31 @@ package debugging;
 import javax.swing.*;
 public class FixDebugSix3
 {
-public static void main(String[] args)
-{
- String userNumString;
- int userNum;
- int value;
- final int MIN = 1;
- final int MAX = 20;
- userNumString = JOptionPane.showInputDialog(null,
-     "Enter a number between " + MIN + " and " + MAX + " inclusive");
- userNum = Integer.parseInt(userNumString);
- while(userNum < MIN | userNum > MAX)
- {
-    //userNumString = JOptionPane.showInputDialog(null,
-    System.out.println("Number out of range" +
-     "\nEnter a number between " + MIN + " and " + MAX + " inclusive");
-    userNum = Integer.parseInt(userNumString);
- }
- for(x = userNum; x = 0; x = x - value) {
- {
-   System.out.print(val + "  ");
-   for(int x = 0; x  100000; ++x)
-    for(int y = 0y  10000; ++y);
-    // Adjust these numbers for faster or slower performance
- }
- System.out.println("Blastoff!");
-}
-}
+	public static void main(String[] args)
+	{
+	 String userNumString;
+	 int userNum;
+	 int value = 0;
+	 final int MIN = 1;
+	 final int MAX = 20;
+	 
+		 userNumString = JOptionPane.showInputDialog(null,
+		     "Enter a number between " + MIN + " and " + MAX + " inclusive");
+		 userNum = Integer.parseInt(userNumString);
+		 while(userNum < MIN || userNum > MAX)
+		 {
+		    //userNumString = JOptionPane.showInputDialog(null,
+		    System.out.println("Number out of range" +
+		     "\nEnter a number between " + MIN + " and " + MAX + " inclusive");
+		    userNum = Integer.parseInt(userNumString);
+		 }
+		 for(int x = userNum; x >= 0; x = x - value) {
+			 {
+			   System.out.print(value + "  ");
+			   value = value + x;
+			    // Adjust these numbers for faster or slower performance
+			 }
+		 System.out.println("Blastoff!");
+		 }
+	}
 }
